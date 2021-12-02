@@ -1,6 +1,6 @@
-input = open('input/02.txt', 'r')
-myFile = input.readlines()
-input = [x.replace('\n', '') for x in myFile]
+#input = open('input/02.txt', 'r')
+#myFile = input.readlines()
+#input = [x.replace('\n', '') for x in myFile]
 
 testinput =     ['forward 5',
                 'down 5',
@@ -9,7 +9,7 @@ testinput =     ['forward 5',
                 'down 8',
                 'forward 2']
 
-# input = testinput
+input = testinput
 
 aim = 0
 hor = 0
